@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <script src="./javascript.js" defer></script>
+    <title>Etch-a-Sketch</title>
 </head>
 <body>
     <div id="main-container">
+        <h1>Etch-a-Sketch</h1>
         <div id="grid-container">
 
         </div>
         <div id="menu-container">
             <div id="slider-container" >
-                <h3>Grid size</h6>
+                <label for="set-grid-size">Grid size</label>
                 <input type="range" min="1" max="100" value="20" step="1" id="set-grid-size"> 
-                <span id="display-grid-size">20 </span>
+                <input id="display-grid-size" type="number" value="20" min="1" max="100"/>
             </div>
-            <input type="color" id="favcolor" value="#0f0f0f">
-            <button id="grid-reset-button"> <strong>reset</strong></button> 
+            <label for="grid-color">Color Picker</label>
+            <input type="color" id="grid-color" value="#0f0f0f">
+            <button id="grid-reset-button"> <strong>Reset</strong></button> 
         </div>
     </div>
     

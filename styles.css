@@ -3,8 +3,9 @@
     padding: 0%;
 }
 
-.col-grid-container {
+.col-grid-container, .row-grid-container {
     display: flex;
+    flex: 1 1 auto;
 }
 
 .prevent-select {
@@ -23,6 +24,7 @@
 }
 
 #slider-container{
+    align-items: center;
     text-align: center;
 }
 
@@ -33,4 +35,21 @@
     align-items: center;
     height: 100vh;
     width: 100%;
+}
+
+#grid-container {
+    height: 70%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#grid-reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#display-grid-size{
+    text-align: center;
 }
