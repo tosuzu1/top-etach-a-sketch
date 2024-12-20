@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+.col-grid-container {
+    display: flex;
+}
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
+    -webkit-user-drag:none;
+  }
