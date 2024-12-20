@@ -14,3 +14,23 @@
 
     -webkit-user-drag:none;
   }
+
+#menu-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 20px;
+}
+
+#slider-container{
+    text-align: center;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}

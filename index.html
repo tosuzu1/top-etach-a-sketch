@@ -7,7 +7,21 @@
     <script src="./javascript.js" defer></script>
 </head>
 <body>
-    <div id="main-container"></div>
-    <button id="grid-reset-button"> reset</button>    
+    <div id="main-container">
+        <div id="grid-container">
+
+        </div>
+        <div id="menu-container">
+            <div id="slider-container" >
+                <h3>Grid size</h6>
+                <input type="range" min="1" max="100" value="20" step="1" id="set-grid-size"> 
+                <span id="display-grid-size">20 </span>
+            </div>
+            <input type="color" id="favcolor" value="#0f0f0f">
+            <button id="grid-reset-button"> <strong>reset</strong></button> 
+        </div>
+    </div>
+    
+       
 </body>
 </html>
